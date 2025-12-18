@@ -22,9 +22,36 @@ Following the style guide ensures our code is **consistent, accessible, and main
 
 ---
 
-## Getting Started
+## Setting Up with Visual Studio Code
+
+### 1. Clone the Repository
+
+**Option A: Using VS Code**
+1. Open Visual Studio Code
+2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
+3. Type "Git: Clone" and select it
+4. Enter the repository URL: `https://github.com/aarongrech79/Group1Testing.git`
+5. Choose a folder location on your computer
+6. Click "Open" when prompted
+
+**Option B: Using Terminal**
+```bash
+git clone https://github.com/aarongrech79/Group1Testing.git
+cd Group1Testing
+code .
+```
+
+### 2. Install Recommended Extensions (Optional but Recommended)
+
+For better HTML/CSS development:
+- **Live Server** - Launch a local development server with live reload
+- **HTML CSS Support** - CSS Intellisense for HTML
+- **Prettier** - Code formatter
+
+### 3. Start Working
 
 1. Read the [HTML Style Guide](HTML_STYLE_GUIDE.md)
 2. Use the provided templates and components
 3. Test your code against the accessibility checklist
-4. Submit your PR for review
+4. Commit and push your changes
+5. Submit your PR for review
