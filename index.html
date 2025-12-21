@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse our accessible e-commerce store with a wide selection of quality products">
+  <title>Home - Accessible E-Commerce Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip to main content link for keyboard users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <div id="app">
+    <!-- Header -->
+    <header class="header" role="banner">
+      <div class="header-content">
+        <h1 class="site-title">
+          <a href="index.html" class="logo-link" aria-label="Accessible Shop - Home page">Accessible Shop</a>
+        </h1>
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart <span class="cart-badge" id="cart-count">0</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container" id="main-content" role="main">
+      <h1>Welcome to Our Store</h1>
+      <p>Discover our carefully curated selection of quality products.</p>
+      
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-container">
+        
+        <!-- Product 1: Laptop -->
+        <article class="product-card" role="region" aria-labelledby="product-1">
+          <div class="product-image" role="img" aria-label="Modern silver laptop computer">
+            💻
+          </div>
+          <h3 id="product-1">Professional Laptop</h3>
+          <p class="product-description">High-performance laptop perfect for work and creativity. Features fast processor and excellent display.</p>
+          <p class="product-price" aria-label="Price: 999 dollars">$999.00</p>
+          
+          <a href="product-detail.html?id=1" class="btn btn-secondary" aria-label="View details for Professional Laptop">
+            View Details
+          </a>
+        </article>
+
+        <!-- Product 2: Smartphone -->
+        <article class="product-card" role="region" aria-labelledby="product-2">
+          <div class="product-image" role="img" aria-label="Modern smartphone">
+            📱
+          </div>
+          <h3 id="product-2">Smartphone Pro</h3>
+          <p class="product-description">Latest smartphone with advanced camera system and long battery life. Stay connected wherever you go.</p>
+          <p class="product-price" aria-label="Price: 799 dollars">$799.00</p>
+          
+          <a href="product-detail.html?id=2" class="btn btn-secondary" aria-label="View details for Smartphone Pro">
+            View Details
+          </a>
+        </article>
+
+        <!-- Product 3: Headphones -->
+        <article class="product-card" role="region" aria-labelledby="product-3">
+          <div class="product-image" role="img" aria-label="Wireless headphones">
+            🎧
+          </div>
+          <h3 id="product-3">Wireless Headphones</h3>
+          <p class="product-description">Premium noise-cancelling headphones with crystal-clear sound quality. Comfortable for all-day wear.</p>
+          <p class="product-price" aria-label="Price: 299 dollars">$299.00</p>
+          
+          <a href="product-detail.html?id=3" class="btn btn-secondary" aria-label="View details for Wireless Headphones">
+            View Details
+          </a>
+        </article>
+
+        <!-- Product 4: Smart Watch -->
+        <article class="product-card" role="region" aria-labelledby="product-4">
+          <div class="product-image" role="img" aria-label="Smart watch">
+            ⌚
+          </div>
+          <h3 id="product-4">Smart Watch</h3>
+          <p class="product-description">Track your fitness goals and stay connected with this elegant smart watch. Water-resistant design.</p>
+          <p class="product-price" aria-label="Price: 349 dollars">$349.00</p>
+          
+          <a href="product-detail.html?id=4" class="btn btn-secondary" aria-label="View details for Smart Watch">
+            View Details
+          </a>
+        </article>
+
+        <!-- Product 5: Tablet -->
+        <article class="product-card" role="region" aria-labelledby="product-5">
+          <div class="product-image" role="img" aria-label="Digital tablet">
+            📱
+          </div>
+          <h3 id="product-5">Pro Tablet</h3>
+          <p class="product-description">Versatile tablet for creativity and productivity. Large display with stylus support included.</p>
+          <p class="product-price" aria-label="Price: 649 dollars">$649.00</p>
+          
+          <a href="product-detail.html?id=5" class="btn btn-secondary" aria-label="View details for Pro Tablet">
+            View Details
+          </a>
+        </article>
+
+        <!-- Product 6: Camera -->
+        <article class="product-card" role="region" aria-labelledby="product-6">
+          <div class="product-image" role="img" aria-label="Digital camera">
+            📷
+          </div>
+          <h3 id="product-6">Digital Camera</h3>
+          <p class="product-description">Professional-grade camera with 4K video recording. Capture every moment in stunning detail.</p>
+          <p class="product-price" aria-label="Price: 1199 dollars">$1199.00</p>
+          
+          <a href="product-detail.html?id=6" class="btn btn-secondary" aria-label="View details for Digital Camera">
+            View Details
+          </a>
+        </article>
+
+        <!-- Product 7: Gaming Console -->
+        <article class="product-card" role="region" aria-labelledby="product-7">
+          <div class="product-image" role="img" aria-label="Gaming console">
+            🎮
+          </div>
+          <h3 id="product-7">Gaming Console</h3>
+          <p class="product-description">Next-gen gaming console with stunning graphics and extensive game library. Hours of entertainment.</p>
+          <p class="product-price" aria-label="Price: 499 dollars">$499.00</p>
+          
+          <a href="product-detail.html?id=7" class="btn btn-secondary" aria-label="View details for Gaming Console">
+            View Details
+          </a>
+        </article>
+
+        <!-- Product 8: Bluetooth Speaker -->
+        <article class="product-card" role="region" aria-labelledby="product-8">
+          <div class="product-image" role="img" aria-label="Portable bluetooth speaker">
+            🔊
+          </div>
+          <h3 id="product-8">Bluetooth Speaker</h3>
+          <p class="product-description">Portable speaker with powerful sound and long battery life. Perfect for outdoor adventures.</p>
+          <p class="product-price" aria-label="Price: 149 dollars">$149.00</p>
+          
+          <a href="product-detail.html?id=8" class="btn btn-secondary" aria-label="View details for Bluetooth Speaker">
+            View Details
+          </a>
+        </article>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <p>&copy; 2025 Accessible E-Commerce. WCAG AA Compliant. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
